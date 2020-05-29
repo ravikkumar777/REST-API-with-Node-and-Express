@@ -54,4 +54,4 @@ app.get('/documents', function (req, res) {
  });
 ```
 ## GET request from POSTMAN
-![]()
+![API Request - GET](https://github.com/ravikkumar777/API-Testing-with-POSTMAN/blob/master/api-test.png)
